@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 5em;
+}
+
+.footerText {
+  background-color: #bf9f4fff;
+  min-height: 300px;
+  color: white;
+  display: grid;
+  place-items: center;
+}
