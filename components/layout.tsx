@@ -1,14 +1,18 @@
-import Navbar from "./navbar"
-import Footer from "./footer"
+import Head from "next/head";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
-const Layout = ({children} : {children: React.ReactNode}) => {
-    return (
-        <>
-            <Navbar/>
-            <main>{children}</main>
-            <Footer/>
-        </>
-    )
-}
+const Layout = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <>
+      <Head>
+        <title>Kuusjoki</title>
+      </Head>
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
