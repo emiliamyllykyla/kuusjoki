@@ -20,14 +20,19 @@ const Navbar = () => {
       </div>
       <ul className={styles.ul}>
         <li className={router.pathname == "/" ? styles.selected : ""}>
-          <Link href="/">
-            home
-          </Link>
+          <Link href="/">koti</Link>
         </li>
-        <li className={router.pathname == "/test" ? styles.selected : ""}>
-          <Link href="/test">
-            test
-          </Link>
+        <li className={router.pathname == "/events" ? styles.selected : ""}>
+          <Link href="/tapahtumat">tapahtumat</Link>
+        </li>
+        <li className={router.pathname == "/palvelut" ? styles.selected : ""}>
+          <Link href="/palvelut">palvelut</Link>
+        </li>
+        <li className={router.pathname == "/historia" ? styles.selected : ""}>
+          <Link href="/historia">historia</Link>
+        </li>
+        <li className={router.pathname == "/linkit" ? styles.selected : ""}>
+          <Link href="/">linkit</Link>
         </li>
       </ul>
     </nav>
