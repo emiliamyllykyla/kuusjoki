@@ -9,7 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <title>Kuusjoki</title>
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <div className="page">{children}</div>
       <Footer />
     </>
   );
