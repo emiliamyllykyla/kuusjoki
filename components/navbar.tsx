@@ -22,17 +22,14 @@ const Navbar = () => {
         <li className={router.pathname == "/" ? styles.selected : ""}>
           <Link href="/">koti</Link>
         </li>
-        <li className={router.pathname == "/events" ? styles.selected : ""}>
-          <Link href="/tapahtumat">tapahtumat</Link>
-        </li>
         <li className={router.pathname == "/palvelut" ? styles.selected : ""}>
           <Link href="/palvelut">palvelut</Link>
         </li>
-        <li className={router.pathname == "/historia" ? styles.selected : ""}>
-          <Link href="/historia">historia</Link>
+        <li className={router.pathname == "/tapahtumat" ? styles.selected : ""}>
+          <Link href="/tapahtumat">tapahtumat</Link>
         </li>
         <li className={router.pathname == "/linkit" ? styles.selected : ""}>
-          <Link href="/">linkit</Link>
+          <Link href="/linkit">linkit</Link>
         </li>
       </ul>
     </nav>
