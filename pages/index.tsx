@@ -5,6 +5,7 @@ import arial from "../public/kuusjoki_arial.jpg";
 import arial2 from "../public/kuusjoki_arial_2.jpg";
 import cafe from "../public/kuuscafe.jpg";
 import cross from "../public/kuuscross.png";
+import sedir from "../public/sedir.jpeg";
 import styles from "../styles/Home.module.css";
 import ReactiveButton from "reactive-button";
 import Link from "next/link";
@@ -44,7 +45,8 @@ const Home: NextPage = () => {
             <h3>Tapahtumat</h3>
             <p>
               Täältä löydät lähikuukausien tapahtumat. Katso viljamakasiinin
-              kesäkahvilan ja näyttelyiden aukioloajat.
+              kesäkahvilan ja näyttelyiden aukioloajat ja tule tapaamaan ystäviä
+              sekä uusia tuttavuuksia.
             </p>
             <Link href="/tapahtumat">
               <a>
@@ -62,8 +64,8 @@ const Home: NextPage = () => {
           <Card direction="left" img={{ src: arial }}>
             <h3>Palvelut</h3>
             <p>
-              Marja- ja sienimetsät, lenkkipolut ja pienten hiekkateiden
-              verkosto houkuttelevat liikkumaan ja nauttimaan luonnosta.
+              Kuusjoki tarjoaa monenlaisia palveluita. Alakoulun, kirjaston ja
+              terveysaseman lisäksi löydät mm. monet mahdollisuudet urheiluun.
             </p>
             <Link href="/palvelut">
               <a>
@@ -81,9 +83,16 @@ const Home: NextPage = () => {
           <Card direction="right" img={{ src: cross }}>
             <h3>Suomen pisin suojatie?</h3>
             <p>
-              Runsaslukuiset yhdistykset tarjoavat monipuolista
-              harrastustoimintaa, kursseja, tapahtumia, näyttelyitä ja
-              konsertteja kaikenikäisille.
+              Monipuolisen ruokakaupan Salen valtava parkkipaikka on nähtävyys
+              joka herättää hilpeyttä. Voisiko parkkipaikkaa halkova suojatie
+              kuulua jopa Suomen pisimpien joukkoon?
+            </p>
+          </Card>
+          <Card direction="left" img={{ src: sedir }}>
+            <h3>Kebab-Pizzeria Sedir</h3>
+            <p>
+              Sedirin maineikkaat pizzat houkuttelevat ruokailijoita Kuusjoen
+              ulkopuoleltakin.
             </p>
           </Card>
         </section>
