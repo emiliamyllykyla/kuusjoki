@@ -43,10 +43,8 @@ const Home: NextPage = () => {
           <Card direction="right" img={{ src: cafe }}>
             <h3>Tapahtumat</h3>
             <p>
-              Kirkonkylä ja useat pienet kylät levittäytyvät metsien ja peltojen
-              lomaan seuraten aluetta halkovaa jokea. Marja- ja sienimetsät,
-              lenkkipolut ja pienten hiekkateiden verkosto houkuttelevat
-              liikkumaan ja nauttimaan luonnosta.
+              Täältä löydät lähikuukausien tapahtumat. Katso viljamakasiinin
+              kesäkahvilan ja näyttelyiden aukioloajat.
             </p>
             <Link href="/tapahtumat">
               <a>
@@ -64,10 +62,8 @@ const Home: NextPage = () => {
           <Card direction="left" img={{ src: arial }}>
             <h3>Palvelut</h3>
             <p>
-              Kirkonkylä ja useat pienet kylät levittäytyvät metsien ja peltojen
-              lomaan seuraten aluetta halkovaa jokea. Marja- ja sienimetsät,
-              lenkkipolut ja pienten hiekkateiden verkosto houkuttelevat
-              liikkumaan ja nauttimaan luonnosta.
+              Marja- ja sienimetsät, lenkkipolut ja pienten hiekkateiden
+              verkosto houkuttelevat liikkumaan ja nauttimaan luonnosta.
             </p>
             <Link href="/palvelut">
               <a>
@@ -82,27 +78,7 @@ const Home: NextPage = () => {
               </a>
             </Link>
           </Card>
-          <Card direction="right" img={{ src: arial2 }}>
-            <h3>Historia</h3>
-            <p>
-              Runsaslukuiset yhdistykset tarjoavat monipuolista
-              harrastustoimintaa, kursseja, tapahtumia, näyttelyitä ja
-              konsertteja kaikenikäisille.
-            </p>
-            <Link href="/historia">
-              <a>
-                <ReactiveButton
-                  color={"yellow"}
-                  idleText={"Lue lisää"}
-                  buttonRef={null}
-                  width={null}
-                  height={null}
-                  animation={true}
-                />
-              </a>
-            </Link>
-          </Card>
-          <Card direction="left" img={{ src: cross }}>
+          <Card direction="right" img={{ src: cross }}>
             <h3>Suomen pisin suojatie?</h3>
             <p>
               Runsaslukuiset yhdistykset tarjoavat monipuolista
